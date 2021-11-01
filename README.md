@@ -1,2 +1,2 @@
 # Greene2007
-Reproduction by Lynde Folsom
+Replication by Lynde Folsom
