@@ -1,0 +1,93 @@
+---
+title: "Cognitive load selectively interferes with utilitarian moral judgment"
+author: "Joshua D. Greene, Sylvia A. Morelli, Kelly Lowenberg, Leigh E. Nystrom, Jonathan D. Cohen"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+output:
+  html_document:
+    toc: yes
+    toc_depth: 3
+    toc_float:
+      collapsed: false
+---
+
+<!-- Reproducibility reports should all use this template to standardize reporting across projects. These reports will be public supplementary materials that accompany the summary report(s) of the aggregate results. -->
+
+## Introduction
+
+In this project I will be reproducing the main finding of the paper, that is the effect of cognitive load on moral decision making. Greene et al, present 40 vignettes of moral decisions that require either deontological (rule based) decisions or utilitarian (consequence based) decisions. While there is no difference in response time (RT) for either, with the presence of load, utilitarian responses have a longer RT. The study is a within-between design so all participants are in both no load and load groups and the RT is taken and averaged by judgement (deontolgical/utilitarian). 
+
+**Clarify key analysis of interest here**  The main finding that I am looking to replicate is the effect of load on RT for utilitarian decision making. 
+
+### Justification for choice of study
+
+I choose to replicate this study as it's a seminal piece that provides justification for thinking that utilitarian decision making is part of a slower cognitive process. This piece builds on previous work by Greene and will become a key finding for their work in model-free, model based moral decision making. 
+
+### Anticipated challenges
+
+One challenge I anticipate in attempting to replicate this study is getting sufficient responses from participants as there are many vinnettes and I could imagine that there will be a great deal of satisficing.
+
+### Links
+
+Project repository (on Github): https://github.com/psych251/Greene2007.git
+
+Original paper (as hosted in your repo):
+
+## Methods
+
+### Description of the steps required to reproduce the results
+
+Please describe all the steps necessary to reproduce the key result(s) of this study. 
+
+### Differences from original study
+
+One major difference is that I will be conducting this study online rather than in person. This means my population will not be Princton undergraduates and may represent more diversity in age and other demographics. This may have a role in how people make moral decisions as well as things like reading speed and general response time. 
+
+## Project Progress Check 1
+
+### Measure of success
+
+Please describe the outcome measure for the success or failure of your reproduction and how this outcome will be computed.
+
+
+### Pipeline progress
+
+Earlier in this report, you described the steps necessary to reproduce the key result(s) of this study. Please describe your progress on each of these steps (e.g., data preprocessing, model fitting, model evaluation).
+
+
+## Results
+
+### Data preparation
+
+Data preparation following the analysis plan.
+	
+```{r include=F}
+### Data Preparation
+
+#### Load Relevant Libraries and Functions
+
+#### Import data
+
+#### Data exclusion / filtering
+
+#### Prepare data for analysis - create columns etc.
+```
+
+### Key analysis
+
+The analyses as specified in the analysis plan.  
+
+*Side-by-side graph with original graph is ideal here*
+
+###Exploratory analyses
+
+Any follow-up analyses desired (not required).  
+
+## Discussion
+
+### Summary of Reproduction Attempt
+
+Open the discussion section with a paragraph summarizing the primary result from the key analysis and assess whether you successfully reproduced it, partially reproduced it, or failed to reproduce it.  
+
+### Commentary
+
+Add open-ended commentary (if any) reflecting (a) insights from follow-up exploratory analysis of the dataset, (b) assessment of the meaning of the successful or unsuccessful reproducibility attempt - e.g., for a failure to reproduce the original findings, are the differences between original and present analyses ones that definitely, plausibly, or are unlikely to have been moderators of the result, and (c) discussion of any objections or challenges raised by the current and original authors about the reproducibility attempt (if you contacted them).  None of these need to be long.
